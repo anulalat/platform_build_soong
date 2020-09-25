@@ -75,6 +75,7 @@ func GetConfig(name string) PathConfig {
 
 var Configuration = map[string]PathConfig{
 	"bash":    Allowed,
+  "bison":   Allowed,
 	"brotli":  Allowed,
 	"ccache":  Allowed,
 	"date":    Allowed,
@@ -83,6 +84,7 @@ var Configuration = map[string]PathConfig{
 	"dlv":     Allowed,
 	"expr":    Allowed,
 	"fuser":   Allowed,
+  "flex":    Allowed,
 	"getopt":  Allowed,
 	"git":     Allowed,
 	"hexdump": Allowed,
