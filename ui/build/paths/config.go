@@ -74,6 +74,15 @@ func GetConfig(name string) PathConfig {
 }
 
 var Configuration = map[string]PathConfig{
+  "aarch64-linux-android-ar":      Log,
+	"aarch64-linux-android-gcc":     Log,
+	"aarch64-linux-android-ld":      Log,
+	"aarch64-linux-android-nm":      Log,
+	"aarch64-linux-android-objcopy": Log,
+	"aarch64-linux-android-objdump": Log,
+  "arm-linux-androideabi-as": Log,
+  "arm-linux-androideabi-ld": Log,
+  "arm-linux-androideabi-ld.bfd": Log,
 	"bash":    Allowed,
   "bison":   Allowed,
 	"brotli":  Allowed,
@@ -92,7 +101,7 @@ var Configuration = map[string]PathConfig{
 	"java":    Allowed,
 	"javap":   Allowed,
 	"lsof":    Allowed,
-        "m4":      Allowed,
+  "m4":      Allowed,
 	"nproc":   Allowed,
 	"openssl": Allowed,
 	"patch":   Allowed,
